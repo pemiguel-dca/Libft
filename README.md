@@ -1,1 +1,16 @@
-This project consists in creating your own library with some of mostknown functions, such as, strlen, strcpy, memcpy, etc... To run this project all you have to is clone this repository into your pc with 'git clone 'this repo'' and then run make to create the '.a' file, and that file is where all functions are (in binary). To use this library you just need to add a command while executing a C file, 'cc main.c -L. libft.a', the '-L.' allows the '.c' file to recognize the functions path.
+This project consists in creating your own library with some of mostknown functions, such as, strlen, strcpy, memcpy, and others...
+
+## Clone
+
+```bash
+git clone https://github.com/pemiguel-dca/Libft.git
+```
+When you have cloned the repo, you just need to run ```make``` inside of the 'src' directory.
+
+## Libft
+
+You'll see after running ```make``` that a 'libft.a' file was created, that file is the library itself, to use it you add a flag when compiling, here's an example:
+
+```bash
+cc main.c -L. libft.a
+```
